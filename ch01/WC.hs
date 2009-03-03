@@ -2,7 +2,7 @@
 -- Chapter 01
 
 -- Line count program
-{-
+--{-
 main = interact wordCount
     where wordCount input = show (length (lines input)) ++ "\n"
 --}
@@ -14,7 +14,7 @@ main = interact wordCount
 --}
 
 -- Ex. 4: change to count characters
---{-
+{-
 main = interact wordCount
     where wordCount input = show (length input) ++ "\n"
 --}
